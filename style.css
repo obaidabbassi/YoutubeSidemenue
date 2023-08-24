@@ -1,0 +1,220 @@
+*{
+
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+html,body{
+
+    height: 100%;
+    width: 100%;
+   
+}
+
+body{
+
+
+}
+
+.nav{
+
+    margin-top: 10px;
+    display: flex;
+
+   justify-content: center;
+   align-items: center;
+   gap:10px;
+}
+
+.logo-menue{
+flex: 1;
+gap:10px;
+    display: flex;
+
+   justify-content: flex-start;
+   margin-left: 20px;
+   align-items: center;
+}
+
+.input-menue{
+    flex: 2;
+ 
+    gap:50px;
+    display: flex;
+
+    justify-content: center;
+    align-items: center;
+}
+.icons{
+    flex: 1;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    gap:10px;
+
+
+}
+
+input{
+    font-size: 16px;
+    padding: 10px;
+    width: 50%;
+    padding-left: 40px; 
+    outline: none;
+    border: 1px solid #ccc;
+padding-right: 25px;
+    border-radius: 40px 0 0 40px;
+}
+input::placeholder{
+
+    font-size: 16px;
+}
+
+
+button{
+    padding: 12px;
+    border-radius: 0 40px 40px 0;
+    border: 1px solid #ccc;
+    outline: none;
+    position: absolute;
+    left: 57%;
+}
+
+#btn-menue:hover{
+    background: rgba(130, 130, 130, 0.712);
+    cursor: pointer;
+
+    border-radius: 100%;
+}
+
+.vertical-menue{
+
+
+    width: 50px;
+    margin-top: 10px;
+    margin-left: 10px;
+    height: 50vh;
+    display: flex;
+    flex-direction: column;
+    justify-content:flex-start;
+    gap:10px;
+
+    align-items: center;
+
+}
+
+.icons:hover{
+cursor: pointer;
+    border-radius: 100%;
+    background-color: rgb(251, 249, 249);
+}
+
+.mobile{
+
+
+visibility: hidden;;
+position: absolute;
+top:80px;
+        width: 180px;
+
+        margin-left: 10px;
+        height: 50vh;
+        display: flex;
+
+        justify-content:space-between;
+        gap:10px;
+        flex-direction: column;
+    
+        align-items: flex-start;
+    
+  
+}
+.my{
+
+    background-color: red;
+    width: 200px;
+    height: 200px;
+
+   
+}
+
+.hid{
+    visibility: hidden;
+}
+.show{
+
+
+
+    overflow: auto;
+    height: 100vh;
+    visibility: visible;
+    position: absolute;
+    top:80px;
+            width: 180px;
+    
+            margin-left: 10px;
+            height: 100vh;
+            display: flex;
+    
+            justify-content:space-between;
+            gap:10px;
+            flex-direction: column;
+        
+            align-items: flex-start;
+
+      
+    }
+
+
+.hr{
+border-top: 1px solid #cccccc12;
+
+    width:150px;
+}
+
+@media screen and (max-width:1024px) {
+
+    .input-menue{
+
+        padding-left: 50px;
+    }
+    
+}
+
+@media screen and (max-width:700px) {
+
+    .input-menue{
+
+       width: 50%;
+    }
+
+    input{
+
+        width: 100%;
+    }
+    
+}
+
+@media screen and (max-width:513px) {
+
+    .input-menue{
+
+padding-left: 50px;
+    }
+
+    input{
+
+        width: 100%;
+    }
+    
+}
+
+@media screen and (max-width:513px) {
+
+
+
+    .logo-menue{
+        margin-left: 20px;
+    }
+}

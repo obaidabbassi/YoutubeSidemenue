@@ -1,0 +1,132 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<meta http-equiv="X-UA-Compatible" content="ie=edge">
+<link rel="stylesheet" href="style.css">
+<title>Youtube</title>
+</head>
+<body>
+
+<nav class="nav">
+    <div class="logo-menue">
+
+<img src="images/menue.png" alt="img" id="btn-menue">
+<img src="images/yt-logo.png" alt="img" class="">
+
+    </div>
+
+    <div class="input-menue ">
+ 
+<input type="text" placeholder=" Search" id="inp">
+<button>Search</button>
+
+<img src="images/mic.png" alt="img" class="">
+
+            </div>
+            
+            <div class="icons">
+             
+                <img src="images/movie.png" alt="img">
+                <img src="images/bell.png" alt="img">
+                <img src="images/profile.png" alt="img">
+
+                    </div>
+                    
+
+
+
+    
+</nav>
+
+<div class="vertical-menue ">
+
+
+
+    
+    <div class="home icons"><img src="images/home.png"/></div>
+<div class="shorts icons"><img src="images/shorts.png"/></div>
+<div class="subs icons"><img src="images/subs.png"/></div>
+<div class="Library icons"><img src="images/library.png"/></div>
+<div class="History icons"><img src="images/history.png"/></div>
+
+
+
+</div>
+
+
+<div class="mobile">
+
+
+
+    
+    <div class="home icons"><img src="images/home.png"/><span>Home</span></div>
+<div class="shorts icons"><img src="images/shorts.png"/><span>Shorts</span></div>
+<div class="subs icons"><img src="images/subs.png"/><span>Subscription</span></div>
+<hr class="hr">
+<div class="Library icons"><img src="images/library.png"/><span>Library</span></div>
+<div class="History icons"><img src="images/history.png"/><span>History</span></div>
+<div class="History icons"><img src="images/videos.png"/><span>Your videos</span></div>
+<div class="History icons"><img src="images/watchlater.png"/><span>Watch later</span></div>
+<div class="History icons"><img src="images/liked.png"/><span>Liked videos</span></div>
+<hr class="hr">
+
+<span>Explore</span>
+<div class="Library icons"><img src="images/trending.png"/><span>Trending</span></div>
+<div class="History icons"><img src="images/music.png"/><span>Music</span></div>
+<div class="History icons"><img src="images/gaming.png"/><span>Gamings</span></div>
+<div class="History icons"><img src="images/news.png"/><span>News</span></div>
+<div class="History icons"><img src="images/sports.png"/><span>Sports</span></div>
+<hr class="hr">
+
+<span>More from YouTube</span>
+<div class="Library icons"><img src="images/ytpremium.png"/><span>YouTube Premium</span></div>
+<div class="History icons"><img src="images/ytstudio.png"/><span>YouTube Studio</span></div>
+<div class="History icons"><img src="images/ytmusic.png"/><span>YouTube Music</span></div>
+<div class="History icons"><img src="images/ytkids.png"/><span>YouTube Kids</span></div>
+<hr class="hr">
+
+<div class="Library icons"><img src="images/settings.png"/><span>Settings</span></div>
+<div class="History icons"><img src="images/reporthistory.png"/><span>Report history</span></div>
+<div class="History icons"><img src="images/help.png"/><span>Help</span></div>
+<div class="History icons"><img src="images/sendFeedback.png"/><span>Send feedback</span></div>
+<hr class="hr">
+
+
+
+
+
+
+</div>
+
+
+
+
+
+
+
+
+
+
+<script >
+
+
+const btn=document.querySelector('#btn-menue');
+const logomenu=document.querySelector('.logo-menue');
+const verticalmenue=document.querySelector('.vertical-menue');
+const mobileMy=document.querySelector('.mobile');
+console.log(logomenu);
+
+btn.addEventListener('click',(e)=>{
+
+    verticalmenue.classList.toggle("hid")
+mobileMy.classList.toggle("show");
+// mobileMy.classList.add("vertical-menue")
+// mobile.classList.toggle("mobile")
+
+})
+
+</script>
+</body>
+</html>
